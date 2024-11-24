@@ -3,7 +3,9 @@
     "baseUrl": "src",
     "jsx": "react-jsx",
     "allowSyntheticDefaultImports": true,
-    "resolveJsonModule": true
+    "target": "ES6",
+    "resolveJsonModule": true,
+    "moduleResolution": "Node"
   },
   "include": ["src", "src/custom.d.ts"]
 }
