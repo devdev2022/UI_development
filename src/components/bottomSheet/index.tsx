@@ -17,7 +17,10 @@ export default function BottomSheet({
   onClose,
 }: BottomSheetProps) {
   return (
-    <div className={cx("bottom_sheet_wrap", { is_open: isOpen })}>
+    <div
+      className={cx("bottom_sheet_wrap", { is_open: isOpen })}
+      onClick={onClose}
+    >
       <div className="bottom_sheet_inner">
         {title && <strong className="title">{title}</strong>}
         <div className="bottom_sheet_content">{children}</div>
