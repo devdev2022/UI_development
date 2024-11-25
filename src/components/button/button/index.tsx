@@ -14,7 +14,7 @@ interface ButtonProps {
   text: string;
   useCamera?: boolean;
   isDisabled?: boolean;
-  onClick?: () => void;
+  onClick?: (e: any) => void;
 }
 
 export default function Button({

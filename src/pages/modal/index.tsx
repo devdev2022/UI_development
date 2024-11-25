@@ -6,6 +6,11 @@ import { ReactComponent as SampleImage } from "assets/SampleImage.svg";
 export default function SmartKeyBottomSheet() {
   const [isOpenModal, setIsOpenModal] = useState(false);
 
+  const closeModal = (e: React.MouseEvent<HTMLLIElement>) => {
+    e.stopPropagation();
+    setIsOpenModal((prevState) => !prevState);
+  };
+
   return (
     <>
       <main className="container">
@@ -19,7 +24,7 @@ export default function SmartKeyBottomSheet() {
       </main>
       <BottomSheet
         isOpen={isOpenModal}
-        onClose={() => setIsOpenModal(false)}
+        onClose={closeModal}
         title="모달창 타이틀"
         btnText="확인"
       >
