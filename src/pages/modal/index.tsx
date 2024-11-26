@@ -1,5 +1,6 @@
 import { useState } from "react";
 import BottomSheet from "components/bottomSheet";
+import Header from "components/mainHeader";
 //Image
 import { ReactComponent as SampleImage } from "assets/SampleImage.svg";
 
@@ -13,6 +14,7 @@ export default function SmartKeyBottomSheet() {
 
   return (
     <>
+      <Header linkText={"홈으로"} />
       <main className="container">
         <button
           type="button"
