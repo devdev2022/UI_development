@@ -1,0 +1,248 @@
+[
+  {
+    "menu_id": "11",
+    "menu_name": "홈",
+    "menu_sub_id": "1",
+    "menu_sub_name": "홈"
+  },
+  {
+    "menu_id": "12",
+    "menu_name": "대시보드",
+    "menu_sub_id": "1",
+    "menu_sub_name": "대시보드"
+  },
+  {
+    "menu_id": "4",
+    "menu_name": "예약",
+    "menu_sub_id": "3",
+    "menu_sub_name": "운행일지"
+  },
+  {
+    "menu_id": "4",
+    "menu_name": "예약",
+    "menu_sub_id": "1",
+    "menu_sub_name": "예약현황"
+  },
+  {
+    "menu_id": "4",
+    "menu_name": "예약",
+    "menu_sub_id": "2",
+    "menu_sub_name": "예약내역"
+  },
+  {
+    "menu_id": "5",
+    "menu_name": "운행현황",
+    "menu_sub_id": "1",
+    "menu_sub_name": "실시간 운행현황"
+  },
+  {
+    "menu_id": "5",
+    "menu_name": "운행현황",
+    "menu_sub_id": "2",
+    "menu_sub_name": "총괄운영현황"
+  },
+  {
+    "menu_id": "6",
+    "menu_name": "회원",
+    "menu_sub_id": "3",
+    "menu_sub_name": "관리자 회원관리"
+  },
+  {
+    "menu_id": "6",
+    "menu_name": "회원",
+    "menu_sub_id": "1",
+    "menu_sub_name": "회원정보"
+  },
+  {
+    "menu_id": "6",
+    "menu_name": "회원",
+    "menu_sub_id": "2",
+    "menu_sub_name": "약관동의내역 관리"
+  },
+  {
+    "menu_id": "6",
+    "menu_name": "회원",
+    "menu_sub_id": "4",
+    "menu_sub_name": "페널티"
+  },
+  {
+    "menu_id": "6",
+    "menu_name": "회원",
+    "menu_sub_id": "5",
+    "menu_sub_name": "관리자 권한관리"
+  },
+  {
+    "menu_id": "3",
+    "menu_name": "차량",
+    "menu_sub_id": "2",
+    "menu_sub_name": "정비차량 관리"
+  },
+  {
+    "menu_id": "3",
+    "menu_name": "차량",
+    "menu_sub_id": "1",
+    "menu_sub_name": "전체차량 관리"
+  },
+  {
+    "menu_id": "3",
+    "menu_name": "차량",
+    "menu_sub_id": "4",
+    "menu_sub_name": "차량 이미지 관리"
+  },
+  {
+    "menu_id": "3",
+    "menu_name": "차량",
+    "menu_sub_id": "3",
+    "menu_sub_name": "사고차량 관리"
+  },
+  {
+    "menu_id": "7",
+    "menu_name": "정산",
+    "menu_sub_id": "1",
+    "menu_sub_name": "과태료 관리"
+  },
+  {
+    "menu_id": "7",
+    "menu_name": "정산",
+    "menu_sub_id": "3",
+    "menu_sub_name": "지출내역"
+  },
+  {
+    "menu_id": "7",
+    "menu_name": "정산",
+    "menu_sub_id": "2",
+    "menu_sub_name": "하이패스 관리"
+  },
+  {
+    "menu_id": "2",
+    "menu_name": "기업",
+    "menu_sub_id": "1",
+    "menu_sub_name": "사업자/지점관리"
+  },
+  {
+    "menu_id": "8",
+    "menu_name": "운영",
+    "menu_sub_id": "3",
+    "menu_sub_name": "약관관리"
+  },
+  {
+    "menu_id": "8",
+    "menu_name": "운영",
+    "menu_sub_id": "5",
+    "menu_sub_name": "고객센터"
+  },
+  {
+    "menu_id": "8",
+    "menu_name": "운영",
+    "menu_sub_id": "1",
+    "menu_sub_name": "이용후기 내역"
+  },
+  {
+    "menu_id": "8",
+    "menu_name": "운영",
+    "menu_sub_id": "2",
+    "menu_sub_name": "차량제어 내역"
+  },
+  {
+    "menu_id": "8",
+    "menu_name": "운영",
+    "menu_sub_id": "4",
+    "menu_sub_name": "공지사항"
+  },
+  {
+    "menu_id": "1",
+    "menu_name": "분석/통계",
+    "menu_sub_id": "7",
+    "menu_sub_name": "비용 통계"
+  },
+  {
+    "menu_id": "1",
+    "menu_name": "분석/통계",
+    "menu_sub_id": "1",
+    "menu_sub_name": "이용 통계"
+  },
+  {
+    "menu_id": "1",
+    "menu_name": "분석/통계",
+    "menu_sub_id": "2",
+    "menu_sub_name": "운행 통계"
+  },
+  {
+    "menu_id": "1",
+    "menu_name": "분석/통계",
+    "menu_sub_id": "3",
+    "menu_sub_name": "사용자 패턴 분석"
+  },
+  {
+    "menu_id": "1",
+    "menu_name": "분석/통계",
+    "menu_sub_id": "4",
+    "menu_sub_name": "이용률 시뮬레이션"
+  },
+  {
+    "menu_id": "1",
+    "menu_name": "분석/통계",
+    "menu_sub_id": "5",
+    "menu_sub_name": "정비 통계"
+  },
+  {
+    "menu_id": "1",
+    "menu_name": "분석/통계",
+    "menu_sub_id": "6",
+    "menu_sub_name": "사고 통계"
+  },
+  {
+    "menu_id": "1",
+    "menu_name": "분석/통계",
+    "menu_sub_id": "8",
+    "menu_sub_name": "안전/경제운전 통계_시험중"
+  },
+  {
+    "menu_id": "10",
+    "menu_name": "비즈카라이트 운영관리",
+    "menu_sub_id": "4",
+    "menu_sub_name": "약관관리"
+  },
+  {
+    "menu_id": "10",
+    "menu_name": "비즈카라이트 운영관리",
+    "menu_sub_id": "2",
+    "menu_sub_name": "사업체관리"
+  },
+  {
+    "menu_id": "10",
+    "menu_name": "비즈카라이트 운영관리",
+    "menu_sub_id": "1",
+    "menu_sub_name": "회원관리"
+  },
+  {
+    "menu_id": "10",
+    "menu_name": "비즈카라이트 운영관리",
+    "menu_sub_id": "3",
+    "menu_sub_name": "이용통계"
+  },
+  {
+    "menu_id": "9",
+    "menu_name": "비즈카라이트 관리자",
+    "menu_sub_id": "2",
+    "menu_sub_name": "차량관리"
+  },
+  {
+    "menu_id": "9",
+    "menu_name": "비즈카라이트 관리자",
+    "menu_sub_id": "1",
+    "menu_sub_name": "운행관리"
+  },
+  {
+    "menu_id": "9",
+    "menu_name": "비즈카라이트 관리자",
+    "menu_sub_id": "4",
+    "menu_sub_name": "설정"
+  },
+  {
+    "menu_id": "9",
+    "menu_name": "비즈카라이트 관리자",
+    "menu_sub_id": "3",
+    "menu_sub_name": "공지사항"
+  }
+]

@@ -76,5 +76,5 @@ a {
 .header + .container,
 .logo_header + .container,
 .all_header + .container {
-  padding-top: 44px;
+  padding-top: 60px;
 }

@@ -1,0 +1,65 @@
+.tbl-detail {
+  margin-bottom: 0 !important;
+}
+.tbl-detail tbody > tr > * {
+  height: 48px;
+  border-top: 1px solid #d1d1d1 !important;
+  border-bottom: 1px solid #d1d1d1;
+  vertical-align: middle;
+  color: var(--color-neutral-800, #1f2937);
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.21px;
+}
+.tbl-detail tbody > tr > th {
+  background-color: #f8f8f8 !important;
+}
+.tbl-detail.table-striped > tbody > tr:nth-of-type(odd) > * {
+  --bs-table-bg-type: var(--table-striped-bg);
+  --bs-table-color-type: var(--table-striped-color);
+  transition: all 0.2s ease;
+}
+.tbl-detail.table-hover > tbody > tr:hover > * {
+  background-color: var(--table-hover-bg);
+  transition: all 0.2s ease;
+}
+
+/**/
+
+.tbl-detail ul li strong {
+  display: block;
+  font-weight: bold;
+  padding-bottom: 4px;
+}
+.tbl-detail li strong,
+.tbl-detail .menu-list-area li strong {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 4px;
+  width: 220px;
+  padding: 15px 10px;
+  background: #f8f8f8;
+  font-weight: 500;
+}
+.tbl-detail li span,
+.tbl-detail .menu-list-area li span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  padding: 15px 20px;
+}
+.menu-list-area li {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  border-bottom: 1px solid #d1d1d1;
+}
+.menu-list-area li:first-child {
+  border-top: 1px solid #d1d1d1;
+}
+.allChecked-area {
+  padding: 10px;
+  font-weight: bold;
+  background: #f3f1f7;
+}
