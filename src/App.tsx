@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "layout";
 
 //라우팅
-import { RCMRouter } from "./routes/RouteData";
+import RCMRouter from "./routes/RouteData";
 import { default as createChildRoutes } from "./routes/utils/createRoutes";
 
 function App() {
