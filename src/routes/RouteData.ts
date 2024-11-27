@@ -1,17 +1,25 @@
 import { RouteMetaData } from "../types/routes";
 import Home from "../pages/home/index";
-import test1 from "../pages/modal";
+import modal from "../pages/modal";
+import checkBox from "../pages/checkBox";
+
 export const RCMRouter: RouteMetaData[] = [
   //Home
   {
     path: "/",
     element: Home,
-    id: "00",
+    id: "01",
   },
   //modal
   {
     path: "/modal",
-    element: test1,
-    id: "01_1",
+    element: modal,
+    id: "02",
+  },
+  //checkBox
+  {
+    path: "/checkbox",
+    element: checkBox,
+    id: "03",
   },
 ];
