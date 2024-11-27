@@ -6,7 +6,7 @@ interface BottomSheetProps {
   title?: string;
   children: React.ReactNode | null;
   btnText: string;
-  onClose?: (e: any) => void;
+  onClose?: () => void;
 }
 
 export default function BottomSheet({
