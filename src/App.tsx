@@ -1,18 +1,26 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
 import Layout from "layout";
-import Modal from "pages/modal";
-import Home from "pages/home";
-import CheckBox from "pages/checkBox";
+
+//라우팅
+import { RCMRouter } from "./routes/RouteData";
+import { default as createChildRoutes } from "./routes/utils/createRoutes";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route element={<Layout />}>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/modal" element={<Modal />}></Route>
-          <Route path="/checkbox" element={<CheckBox />}></Route>
+          {RCMRouter.map((paramObj: any) => {
+            const { element: PathElement, path } = paramObj;
+            if (!PathElement) return null;
+            return (
+              <Route key={path}>
+                <Route path={paramObj.path} element={<PathElement />}>
+                  {createChildRoutes(paramObj)}
+                </Route>
+              </Route>
+            );
+          })}
         </Route>
       </Routes>
     </BrowserRouter>
