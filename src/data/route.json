@@ -1,6 +1,0 @@
-{
-  "data": [
-    { "name": "모달", "path": "/modal" },
-    { "name": "체크박스", "path": "/checkbox" }
-  ]
-}

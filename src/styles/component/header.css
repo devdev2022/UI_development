@@ -20,7 +20,7 @@
   display: flex;
   align-items: center;
   padding: 6px 20px;
-  background: var(--violet-950);
+  background: white;
   box-sizing: border-box;
   z-index: 100;
 }

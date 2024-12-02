@@ -57,6 +57,18 @@ video {
     sans-serif;
 }
 
+button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background: none;
+  appearance: none;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -webkit-text-size-adjust: none;
+  -webkit-border-radius: 0;
+}
+
 .wrap,
 .container {
   display: flex;
