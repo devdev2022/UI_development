@@ -3,34 +3,3 @@
   flex-direction: row;
   gap: 10px;
 }
-
-.tooltip_wrap {
-  position: relative;
-}
-.btn_tooltip {
-  display: flex;
-  width: 24px;
-  height: 24px;
-  align-items: center;
-  justify-content: center;
-}
-
-.box_tooltip.is_show {
-  display: block;
-}
-
-.box_tooltip {
-  position: absolute;
-  display: none;
-  max-width: 167px;
-  width: max-content;
-  padding: var(--spacing-12, 12px) var(--spacing-16, 16px);
-  border-radius: 8px;
-  background: var(--white, #fff);
-  box-shadow: 0px 0px 10px 0px rgba(126, 126, 126, 0.15);
-  color: var(--gray-700, #374151);
-  font-size: 12px;
-  letter-spacing: -0.12px;
-  font-weight: 400;
-  z-index: 100;
-}

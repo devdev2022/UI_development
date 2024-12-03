@@ -1,0 +1,65 @@
+.tooltip_wrap {
+  position: relative;
+}
+
+.btn_tooltip {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.box_tooltip_1.is_show,
+.box_tooltip_2.is_show {
+  display: block;
+}
+
+/*툴팁박스 스타일 - 1*/
+.box_tooltip_1 {
+  position: absolute;
+  display: none;
+  max-width: 167px;
+  width: max-content;
+  padding: var(--spacing-12, 12px) var(--spacing-16, 16px);
+  border-radius: 8px;
+  background: var(--white, #fff);
+  box-shadow: 0px 0px 10px 0px rgba(126, 126, 126, 0.15);
+  color: var(--gray-700, #374151);
+  font-size: 12px;
+  letter-spacing: -0.12px;
+  font-weight: 400;
+  z-index: 100;
+}
+
+/*툴팁박스 스타일 - 2*/
+.box_tooltip_2 {
+  position: absolute;
+  display: none;
+  max-width: 167px;
+  width: max-content;
+  padding: var(--spacing-12, 12px) var(--spacing-16, 16px);
+  border-radius: 8px;
+  background: var(--white, #dfe7f5);
+  box-shadow: 0px 0px 10px 0px rgba(126, 126, 126, 0.15);
+  color: var(--gray-700, #374151);
+  font-size: 12px;
+  letter-spacing: -0.12px;
+  font-weight: 400;
+  z-index: 100;
+}
+
+.box_tooltip_2::before {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid var(--white, #dfe7f5);
+  border-left: 10px solid transparent;
+  top: -20px;
+  left: 25%;
+  transform: translateX(-50%);
+  content: "";
+}

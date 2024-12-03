@@ -35,7 +35,29 @@ export default function Tooltip({
         >
           <IconQuestion />
         </button>
-        <div className={cx("box_tooltip", { is_show: isShow }, axis, position)}>
+        <div
+          className={cx("box_tooltip_1", { is_show: isShow }, axis, position)}
+        >
+          {text}
+          {children}
+        </div>
+      </div>
+    );
+  }
+
+  if (index === "2") {
+    return (
+      <div className="tooltip_wrap" ref={ref}>
+        <button
+          type="button"
+          className="btn_tooltip"
+          onClick={() => setIsShow(!isShow)}
+        >
+          <IconQuestion />
+        </button>
+        <div
+          className={cx("box_tooltip_2", { is_show: isShow }, axis, position)}
+        >
           {text}
           {children}
         </div>

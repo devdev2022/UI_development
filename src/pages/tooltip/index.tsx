@@ -3,7 +3,7 @@ import Header from "components/mainHeader";
 import Tooltip from "../../components/tooltip";
 
 function makingDiv() {
-  const divCount = 3;
+  const divCount = 2;
   const result = [];
 
   for (let i = 1; i <= divCount; i++) {
