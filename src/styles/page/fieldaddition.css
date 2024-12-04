@@ -1,0 +1,15 @@
+.field-content {
+  margin: 24px;
+}
+.field-content .field-inner {
+  padding: 24px;
+  background: #fff;
+  border-radius: var(--radius-16, 16px);
+}
+
+.field-content .table-etc-area {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 16px;
+}

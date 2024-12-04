@@ -5,7 +5,7 @@ import Header from "components/mainHeader";
 //Data
 import menuList from "../../mockData/checkBox_menuList.json";
 
-export default function SmartKeyBottomSheet() {
+export default function CheckBox() {
   const [bizMenuData, setBizMenuData]: any = useState([]);
   const [bizMenuWholeChecked, setBizMenuWholeChecked] = useState(false);
 

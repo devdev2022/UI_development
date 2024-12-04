@@ -4,7 +4,7 @@ import Header from "components/mainHeader";
 //Image
 import { ReactComponent as SampleImage } from "assets/SampleImage.svg";
 
-export default function SmartKeyBottomSheet() {
+export default function Modal() {
   const [isOpenModal, setIsOpenModal] = useState(false);
 
   return (

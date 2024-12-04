@@ -25,7 +25,7 @@ function makingDiv() {
   return result;
 }
 
-export default function SmartKeyBottomSheet() {
+export default function MainHeader() {
   return (
     <>
       <Header linkText={"홈으로"} />

@@ -1,9 +1,9 @@
 .tbl-detail {
-  margin-bottom: 0 !important;
+  margin-bottom: 0;
 }
 .tbl-detail tbody > tr > * {
   height: 48px;
-  border-top: 1px solid #d1d1d1 !important;
+  border-top: 1px solid #d1d1d1;
   border-bottom: 1px solid #d1d1d1;
   vertical-align: middle;
   color: var(--color-neutral-800, #1f2937);
@@ -12,7 +12,7 @@
   letter-spacing: -0.21px;
 }
 .tbl-detail tbody > tr > th {
-  background-color: #f8f8f8 !important;
+  background-color: #f8f8f8;
 }
 .tbl-detail.table-striped > tbody > tr:nth-of-type(odd) > * {
   --bs-table-bg-type: var(--table-striped-bg);
@@ -62,4 +62,9 @@
   padding: 10px;
   font-weight: bold;
   background: #f3f1f7;
+}
+
+/*필드*/
+.table > :not(caption) > * > * {
+  padding: 0 0.5rem;
 }

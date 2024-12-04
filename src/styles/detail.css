@@ -1,0 +1,10 @@
+/* 상세 필수표시 */
+.mark-asterisk {
+  color: red;
+}
+
+.etc-top-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
