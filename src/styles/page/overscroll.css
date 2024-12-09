@@ -1,0 +1,9 @@
+.overscroll-content {
+  display: flex;
+  padding: 40px;
+  gap: 20px;
+}
+
+.overscroll-content_title {
+  padding-bottom: 10px;
+}
