@@ -6,7 +6,7 @@ import { ReactComponent as SampleImage } from "assets/SampleImage.svg";
 //MockData
 import Essay from "../../mockData/essay.json";
 
-export default function Modal() {
+export default function OverScroll() {
   return (
     <>
       <Header linkText={"홈으로"} />
