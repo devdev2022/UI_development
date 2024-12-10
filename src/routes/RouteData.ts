@@ -5,6 +5,7 @@ import checkBox from "../pages/checkBox";
 import tooltip from "../pages/tooltip";
 import fieldAddition from "../pages/fieldAddition";
 import overscroll from "../pages/overScroll";
+import login from "../pages/login";
 
 const RCMRouter: RouteMetaData[] = [
   {
@@ -41,6 +42,12 @@ const RCMRouter: RouteMetaData[] = [
     name: "오버 플로우 스크롤",
     path: "/overscroll",
     element: overscroll,
+    id: "04",
+  },
+  {
+    name: "로그인",
+    path: "/login",
+    element: login,
     id: "04",
   },
 ];
