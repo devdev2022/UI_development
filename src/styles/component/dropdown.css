@@ -1,0 +1,128 @@
+.vehiclelist-table {
+  margin: 3vw;
+  width: 30%;
+  background-color: #efefef;
+  color: #666;
+  font-size: 0.7rem;
+  font-weight: 500;
+  vertical-align: middle;
+}
+.vehiclelist-table th {
+  background-color: #efefef;
+  border-bottom: 1px solid #b7c4d1;
+  height: 1.5rem;
+}
+.vehiclelist-table td {
+  background-color: white;
+  border-bottom: 1px solid #b7c4d1;
+  height: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.box_select {
+  width: 20%;
+  display: flex;
+  gap: 8px;
+}
+.box_select .select {
+  display: flex;
+  padding: 14px var(--spacing-16, 16px);
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  border: 1px solid var(--gray-200, #e5e7eb);
+  background: var(--white, #fff);
+  appearance: none;
+  color: var(--gray-900, #111827);
+  font-size: 16px;
+  letter-spacing: -0.16px;
+  background: url(../../assets/icon_arrow_select.svg) right 16px center
+    no-repeat;
+}
+
+.dropdown_area {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.box_select2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 20%;
+  gap: 8px;
+}
+
+.box_select2 .select2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 14px var(--spacing-16, 16px);
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  border: 1px solid var(--gray-200, #e5e7eb);
+  background: var(--white, #fff);
+  appearance: none;
+  color: var(--gray-900, #111827);
+  font-size: 16px;
+  letter-spacing: -0.16px;
+}
+
+.select2 .arrow {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.3s ease;
+  width: 10px;
+  height: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.select2.active .arrow {
+  transform: translateY(-50%) rotateX(180deg);
+}
+
+.box_select2 .checkbox_container {
+  width: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  top: 100%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px 0px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  z-index: 200;
+}
+
+.checkbox_container .checkbox_content {
+  display: flex;
+  padding: 15px;
+}
+
+/*체크박스*/
+.checkbox_content .checkbox {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.checkbox_content label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.checkbox:checked {
+  background-image: url(../../assets/icon_checked.svg);
+  background-repeat: no-repeat;
+  background-color: black;
+  border-color: black;
+}

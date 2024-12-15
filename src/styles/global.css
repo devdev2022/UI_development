@@ -112,3 +112,41 @@ table.table tbody tr th {
   line-height: 140%;
   letter-spacing: -0.375px;
 }
+
+/*메인*/
+.content_main_page {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 40px;
+  gap: 40px;
+}
+
+/*썸네일*/
+.thumbnail_main {
+  width: 15%;
+  height: 20%;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-sizing: content-box;
+  padding: 20px;
+  text-align: center;
+  overflow: auto;
+  overscroll-behavior: contain;
+  cursor: pointer;
+}
+
+.thumbnail_main_title {
+  padding-top: 10px;
+}
+
+.thumbnail_image {
+  aspect-ratio: 1 / 1;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-sizing: content-box;
+  padding: 20px;
+  text-align: center;
+  overflow: auto;
+  overscroll-behavior: contain;
+}

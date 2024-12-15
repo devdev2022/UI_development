@@ -1,0 +1,104 @@
+{
+  "data": [
+    {
+      "business_name": "SUPREME",
+      "garment_type": "패딩",
+      "garment_name": "슈프림 스타 슬리브 다운 퍼퍼 자켓 블랙"
+    },
+    {
+      "business_name": "SUPREME",
+      "garment_type": "패딩",
+      "garment_name": "슈프림 x 노스페이스 눕시 자켓 블랙"
+    },
+    {
+      "business_name": "SUPREME",
+      "garment_type": "패딩",
+      "garment_name": "슈프림 x 조던 퍼퍼 자켓 블랙 - 24FW"
+    },
+    {
+      "business_name": "SUPREME",
+      "garment_type": "자켓",
+      "garment_name": "슈프림 포우 셔링 라인드 봄버 자켓 데님 - 24FW"
+    },
+    {
+      "business_name": "NIKE",
+      "garment_type": "아노락",
+      "garment_name": "슈프림 x 나이키 립스탑 풀오버 블랙 - 24SS"
+    },
+    {
+      "business_name": "NIKE",
+      "garment_type": "후드",
+      "garment_name": "나이키 ACG 폴라텍 울프 트리 풀어버 후드 블랙 서밋 화이트"
+    },
+    {
+      "business_name": "NIKE",
+      "garment_type": "후드",
+      "garment_name": "나이키 x 스투시 NRG RA 풀어보 후드 다크 그레이 헤더"
+    },
+    {
+      "business_name": "NIKE",
+      "garment_type": "후드 집업",
+      "garment_name": "나이키 x 스투시 풀 집 워시드 플리스 후드 블랙"
+    },
+    {
+      "business_name": "NIKE",
+      "garment_type": "후드 집업",
+      "garment_name": "나이키 x 스투시 풀 집 피그먼트 다이드 플리스 후드 하바네로 레드 "
+    },
+    {
+      "business_name": "NIKE",
+      "garment_type": "후드 집업",
+      "garment_name": "나이키 NSW 테크 플리스 윈드러너 풀 집 후드 다크 그레이 헤더"
+    },
+    {
+      "business_name": "NIKE",
+      "garment_type": "패딩",
+      "garment_name": "나이키 x 드레이크 녹타 선셋 퍼퍼 자켓 미카 그린 사이버"
+    },
+    {
+      "business_name": "NIKE",
+      "garment_type": "패딩",
+      "garment_name": "나이키 x 드레이크 녹타 퍼퍼 자켓 블랙 - 아시아"
+    },
+    {
+      "business_name": "STUSSY",
+      "garment_type": "자켓",
+      "garment_name": "나이키 x 스투시 리버시블 자켓 블랙"
+    },
+    {
+      "business_name": "STUSSY",
+      "garment_type": "자켓",
+      "garment_name": "스투시 빌트 리버시블 봄버 자켓 블랙"
+    },
+    {
+      "business_name": "STUSSY",
+      "garment_type": "자켓",
+      "garment_name": "스투시 레더 플라이트 자켓 블랙"
+    },
+    {
+      "business_name": "STUSSY",
+      "garment_type": "가디건",
+      "garment_name": "스투시 쉐기 가디건 블랙"
+    },
+    {
+      "business_name": "Arc'teryx",
+      "garment_type": "아노락",
+      "garment_name": "아크테릭스 엑시스 인슐레이티드 아노락 아이스 블랙"
+    },
+    {
+      "business_name": "Arc'teryx",
+      "garment_type": "패딩",
+      "garment_name": "아크테릭스 세륨 후디 블랙 "
+    },
+    {
+      "business_name": "Arc'teryx",
+      "garment_type": "패딩",
+      "garment_name": "아크테릭스 토륨 SV 후디 블랙"
+    },
+    {
+      "business_name": "BAPE",
+      "garment_type": "자켓",
+      "garment_name": "베이프 x 네이버후드 바시티 자켓 블루 블랙"
+    }
+  ]
+}
