@@ -6,6 +6,7 @@ import tooltip from "../pages/tooltip";
 import fieldAddition from "../pages/fieldAddition";
 import overscroll from "../pages/overScroll";
 import login from "../pages/login";
+import toastBar from "../pages/toastbar";
 
 //드롭다운
 import dropdownContainer from "../pages/dropdownContainer";
@@ -84,6 +85,12 @@ const RCMRouter: RouteMetaData[] = [
         linkName: "드롭다운 타입_2",
       },
     ],
+  },
+  {
+    name: "토스트 바",
+    path: "/toastbar",
+    element: toastBar,
+    id: "09",
   },
 ];
 

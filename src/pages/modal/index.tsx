@@ -14,7 +14,7 @@ export default function Modal() {
         <button
           type="button"
           onClick={() => setIsOpenModal(true)}
-          style={{ padding: "20px", fontSize: "20px" }}
+          className="operation_button"
         >
           모달 창 표시
         </button>

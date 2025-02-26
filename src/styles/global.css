@@ -112,6 +112,12 @@ table.table tbody tr th {
   line-height: 140%;
   letter-spacing: -0.375px;
 }
+/*공통 버튼*/
+.operation_button {
+  padding: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
 
 /*메인*/
 .content_main_page {
