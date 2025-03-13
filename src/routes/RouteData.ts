@@ -7,6 +7,7 @@ import fieldAddition from "../pages/fieldAddition";
 import overscroll from "../pages/overScroll";
 import login from "../pages/login";
 import toastBar from "../pages/toastbar";
+import swiper from "../pages/swiper";
 
 //드롭다운
 import dropdownContainer from "../pages/dropdownContainer";
@@ -90,6 +91,12 @@ const RCMRouter: RouteMetaData[] = [
     name: "토스트 바",
     path: "/toastbar",
     element: toastBar,
+    id: "09",
+  },
+  {
+    name: "슬라이드",
+    path: "/swiper",
+    element: swiper,
     id: "09",
   },
 ];
