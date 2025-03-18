@@ -8,6 +8,7 @@ import overscroll from "../pages/overScroll";
 import login from "../pages/login";
 import toastBar from "../pages/toastbar";
 import swiper from "../pages/swiper";
+import musicPlayer from "../pages/musicPlayer";
 
 //드롭다운
 import dropdownContainer from "../pages/dropdownContainer";
@@ -97,6 +98,12 @@ const RCMRouter: RouteMetaData[] = [
     name: "슬라이드",
     path: "/swiper",
     element: swiper,
+    id: "09",
+  },
+  {
+    name: "카운트업(뮤직 플레이어)",
+    path: "/countup",
+    element: musicPlayer,
     id: "09",
   },
 ];
